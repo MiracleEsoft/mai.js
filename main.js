@@ -1,11 +1,14 @@
-//
+
+
+
+//dsfsdfsdf
+document.body.innerHTML = "<h1>Cool</h1>";
 function GetMostimpornatWords(str){
 	var wordCounts = { };
 	var ss="";
 	var words = str.split(/\b/);
 	for(var i = 0; i < words.length; i++){
 		wordCounts["_" + words[i]] = (wordCounts["_" + words[i]] || 0) + 1;
-		
 		}
 return wordCounts;
 	

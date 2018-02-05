@@ -2,7 +2,10 @@
 
 
 //dsfsdfsdf
-document.body.innerHTML = "<h1>Cool</h1>";
+var x = document.createElement("P");                        // Create a <p> element
+var t = document.createTextNode("This is a paragraph.");    // Create a text node
+x.appendChild(t);                                           // Append the text to <p>
+document.body.appendChild(x);
 function GetMostimpornatWords(str){
 	var wordCounts = { };
 	var ss="";

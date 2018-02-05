@@ -1,0 +1,22 @@
+{
+  "name": "mai.js",
+  "version": "1.0.0",
+  "description": "AI with JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiracleEsoft/mai.js.git"
+  },
+  "keywords": [
+    "AI"
+  ],
+  "author": "Mohammadherzlla <mohammadherzalla@live.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiracleEsoft/mai.js/issues"
+  },
+  "homepage": "https://github.com/MiracleEsoft/mai.js#readme"
+}
